@@ -1,0 +1,38 @@
+File Name - Pixels in Scale Bar Length - Scale/Micrometers - Ratio
+* 100X MAGNIFICATION *
+W16aNP 100x Full coaxial.jpg - 968 pixels - 1000 - 1000/968
+Coverslip with nicl2 100x full coaxial.jpg - 968 pixels - 1000 - 1000/968
+Condition 1 NP 100x partial coaxial 5825.jpg - 487 pixels - 500 - 500/487
+Day 6 asyn 100x full coaxial.jpg - 969 pixels - 1000 - 1000/969
+Condition 2 NP 100x partial coaxial 5825.jpg - 487 pixels - 500 - 500/487
+
+* 500X MAGNIFICATION *
+D16aNP cover slip 500x Full coaxial.jpg - 244 pixels - 500 - 500/244
+W23a 500x Full coaxial.jpg - 244 pixels - 500 - 500/244
+W23aNP 500x Full coaxial.jpg - 244 pixels - 500 - 500/244
+
+* 700X MAGNIFICATION *
+C16a 700x Full coaxial.jpg - 341 pixels - 50 - 50/341
+D40 Alpha-syn 4 700x Full Coaxial.jpg - 342 pixels - 50 - 50/342
+M1 1 Alpha-syn 1 700x Full Coaxial.jpg - 342 pixels - 50 - 50/342
+D40 Alpha-syn 3 700x Full Coaxial.jpg - 342 pixels - 50 - 50/342
+
+* 1000X MAGNIFICATION *
+Condition 1 NP 1000x 2 partial coaxial 5825.jpg - 98 pixels - 10 - 10/98
+Condition 1 NP 1000x partial coaxial 5825.jpg - 98 pixels - 10 - 10/98
+Day 3 aNP on glass slide 1000x partial coaxial upper left.jpg - 10/96
+
+* 2500X MAGNIFICATION *
+Condition 1 NP 2500x 2 partial coaxial 5825.jpg - 124 pixels - 5 - 5/124
+W23aNP 2500x Full coaxial.jpg - 242 pixels - 10 - 10/242
+D16a cover slip 2500x Full coaxial.jpg - 242 pixels - 10 - 10/242
+D16a1 cover slip 2500x Full coaxial.jpg - 242 pixels - 10 - 10/242
+
+
+scale_data = {
+    100: {"scale_length_um": 1000, "ratio_um_per_pixel": 1000/968},   # avg from 968, 969 px
+    500: {"scale_length_um": 500,  "ratio_um_per_pixel": 500/244},
+    700: {"scale_length_um": 50,   "ratio_um_per_pixel": 50/341},     # avg from 341, 342 px
+    1000: {"scale_length_um": 10,  "ratio_um_per_pixel": 10/98},      # ignoring that 96 px outlier
+    2500: {"scale_length_um": 10,  "ratio_um_per_pixel": 10/242}
+}
